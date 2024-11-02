@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.new-product-bg{
+    background-color: #F1F1F1;
+    padding-bottom: 35px;
+}
+
+.philosopher, .philosopher-h{
+    font-family: Philosopher, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.philosopher-h{
+    font-size: 19px;
+}
+
+.wrapper {
+    position: relative;
+    /* width: 50%; */
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .wrapper:hover .image {
+    opacity: 0.5;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.431),rgba(0, 0, 0, 0.431)); */
+    
+  }
+  
+  .wrapper:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    width: 100%;
+    background-color: #343434;
+    color: white;
+    font-size: 16px;
+    padding: 16px 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  } 
+

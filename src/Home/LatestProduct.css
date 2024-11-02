@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.lproduct-bg{
+    background-image: url(../assets/Images/parallax-bg.jpg);
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 105px;
+}
+
+.whiteBg{
+    background-color: white;
+    height: 78%;
+    border-radius: 75px 0 75px 0;
+}
+
+
+.butn {
+    padding: 11px 25px;
+    border: unset;
+    border-radius: 1px;
+    color: #212121;
+    z-index: 1;
+    background: #FFC800;
+    position: relative;
+    font-weight: 700;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+   }
+   
+   .butn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 1px;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+   
+   .butn:hover {
+    color: #e8e8e8;
+   }
+   
+   .butn:hover::before {
+    width: 100%;
+   }
+
+   .latest{
+        padding-top: 20%;
+        font-family: "Playfair Display", Helvetica, sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 10px;
+        font-style: italic;
+        color: #454545cf;
+        letter-spacing: 1px;
+   }
+
+   .latest:hover{
+    transition: 500ms;
+    font-size: 45px;
+   }
+
+   .checkout{
+    padding-top: 12%;
+    padding-bottom: 12%;
+    font-family: Philosopher, Helvetica, sans-serif;
+    font-size: 45px;
+    line-height: 15px;
+    font-weight: 700;
+    word-spacing: 5px;
+   }

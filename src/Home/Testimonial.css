@@ -1,0 +1,70 @@
+.testiSection{
+    height: auto;
+    background-image: url(../assets/Images/parallax-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img-hp{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.test-img{
+    width: 35%;
+    border-radius: 50%;
+    border: 5px solid white;
+
+}
+
+.testi-h-div{
+    width: 50%;
+    
+}
+
+.quotes{
+    width: 15%;
+}
+
+.testi-para{
+    width: 50%;
+    font-family: Philosopher, Helvetica, sans-serif;
+    font-size: 22px;
+    line-height: 38px;
+    font-style: italic;
+}
+
+.johnDeo, .ceo{
+    font-family: Philosopher, Helvetica, sans-serif;
+}
+
+.cauX{
+    padding-bottom: 100px;
+    padding-left: 10%;
+}
+
+.quote-yello{
+    background-color: #FFC800;
+    border-radius: 50%;
+    width: 28%;
+    margin-top: -75px;
+    margin-left: -25px;
+}
+
+.qut-icon{
+    font-size: 25px;
+    padding: 8px 15px;
+}
+
+.verticalLine{
+    border-left: 2px solid white;
+    height: 180px;
+}
+
+@media (min-width:1200px){
+    .testiSection{
+        height: 75vh;
+    }
+}

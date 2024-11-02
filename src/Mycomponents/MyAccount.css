@@ -1,0 +1,43 @@
+.ma-bg-img{
+    background-image: url(../assets/Images/parallax-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-ac{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 8%;
+    margin-bottom: 25px;
+}
+
+.white-div{
+    background-color: white;
+    padding: 4rem 1rem;
+}
+
+.lowercase{
+    font-family: sans-serif;
+    text-transform: lowercase;
+    font-weight: lighter;
+}
+
+.philosopherX{
+    font-family: "Philosopher", sans-serif;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+
+.lbl{
+    width: 30%;
+}
+
+.ipt{
+    width: 70%;
+}
+
+@media(min-width:992px){
+    .white-div{
+        padding: 4rem 18rem;
+    }
+}

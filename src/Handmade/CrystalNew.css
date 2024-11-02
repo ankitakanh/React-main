@@ -1,0 +1,19 @@
+.crystal-bg{
+    background-image: linear-gradient(rgba(25, 25, 25, 0.466),rgba(25, 25, 25, 0.466)) ,url(../assets/Images/handmade.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    height: 60vh;
+    margin-bottom: 75px;
+    margin-top: 25px;
+}
+
+.crystal-bg:hover{
+    background-image: linear-gradient(#00000000, #00000000), url(../assets/Images/handmade.jpg);
+}
+
+@media(min-width:1200px){
+    .crystal-bg{
+        background-position: left;
+    }
+}

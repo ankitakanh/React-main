@@ -1,0 +1,59 @@
+.brdl-div1{
+    width: 50%;
+    padding: 100px 35px;
+    background-color: #F5F5F5;
+}
+
+.brdl-div2{
+    width: 50%;
+}
+
+.bd1-h2{
+    font-family: "Philosopher", sans-serif;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 70px;
+    padding-top: 75px;
+}
+
+.bd1-p{
+    font-size: 22px;
+    padding-top: 30px;
+}
+
+.bdl-img {
+    transition: transform .2s;
+    /* Animation */
+}
+
+.bdl-img:hover {
+    /* transform: scale(0.9); */
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    opacity: 0.6;
+}
+
+.bdl-longp{
+    padding : 20px
+}
+
+.bd2-h2{
+    font-family: "Philosopher", sans-serif;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 50px;
+    padding-bottom: 20px;
+    padding-top: 26px;
+}
+
+.bd2-h4{
+    font-size: 20px;
+    font-family: "Philosopher", sans-serif;
+    color: rgb(91, 90, 90);
+    padding-top: 25px;
+}
+
+.bd2-p{
+    font-size: 15px;
+    color: rgb(130, 130, 130);
+    font-family: "Philosopher", sans-serif;
+}
